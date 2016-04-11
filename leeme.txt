@@ -1,0 +1,95 @@
+# leeme.txt
+
+#########################################################################
+#########################################################################
+#############        Prácticas IG 2014          #########################
+#############     Juan Pablo Porcel Porcel      #########################
+#########################################################################
+#########################################################################
+
+
+
+
+Teclas práctica 5:
+
+
+- [W/A/S/D] para mover la cámara en modo primera persona
+- Con el botón derecho pulsado podemos ver alrededor nuestra moviendo el ratón en primer persona
+- [O] para entrar en modo Observación (podemos ver los objetos seleccionables pasando el ratón por encima de ellos)
+- Si pinchamos en un objeto seleccionable entramos en modo Examinar
+- En modo Examinar podemos rotar la cámara en torno al centro del objeto seleccionado
+- [1/2/3] para cambiar entre las cámaras alzado, planta y perfil
+- La cámara 4 está en proyección ortogonal
+
+
+
+El grafo de escena para la práctica 3 viene definido en grafo.pdf.
+
+1.- COMPILACIÓN Y EJECUCIÓN
+
+
+Con make compilamos y ejecutamos el programa. Por defecto se abre el archivo
+"ant.ply" para la práctica 1 en modo puntos, el archivo "rey.ply", perfil
+definido por mi, para la práctica 2 en modo puntos y el grafo de escena para la
+práctica 3. Una vez iniciado el programa se puede visualizar la práctica 3,
+con las teclas de función cambiamos entre las tres prácticas (F1, F2, F3).
+
+Para abrir otro modelo para las prácticas 1 y 2 sólo tenemos que ejecutar el
+programa mediante la siguiente sintaxis:
+
+	$ ./prac "P1.ply" <B/R> "P2.ply" N <0/1>
+
+donde:
+	- "P1.ply" es el archivo ply para la práctica 1.
+	- <B/R> es la letra "B" o la letra "R" para cargar el perfil en modo barrido
+	o revolución respectivamente.
+	- "P2.ply" es el archivo ply con el perfil para la práctica 2.
+	- N son el número de rotaciones para el perfil en revolución o la tralación
+	de los puntos para el perfil en barrido, según <B/R>
+	- <0/1> , 0 para perfil barrido abierto y 1 para cerrado.
+
+Se añaden en los fuentes del programa 3 archivos ply, "ant.ply" para la práctica 1
+y "perfil.ply" y "rey.ply" para la práctica 2. Además de los plys y los grafos
+de escena (archivos con extensión .ge) para la práctica 3.
+
+
+2.- TECLAS
+
+Las teclas para cambiar de modo de dibujado para las prácticas 1 y 2 son:
+
+(1) Modo puntos.
+(2) Modo líneas/alambre.
+(3) Modo sólido.
+(4) Modo ajedrez.
+(5) Activas/Desactivar dibujado normales a las caras.
+(6) Activas/Desactivar dibujado normales a los vértices.
+
+Las teclas para interactuar con el modelo en la práctica 3 son:
+
+(A) Mover robot ROJO a la izquierda
+(S) Mover robot ROJO hacia delante y atrás
+(D) Mover robot ROJO a la derecha
+(F) Mover cabeza del robot ROJO arriba y abajo
+(X) Mover brazo izquierdo del robot ROJO
+(C) Mover brazo derecho del robot ROJO
+
+(J) Mover robot AZUL a la izquierda
+(K) Mover robot AZUL hacia delante y atrás
+(L) Mover robot AZUL a la derecha
+(H) Mover cabeza del robot AZUL arriba y abajo
+(N) Mover brazo izquierdo del robot AZUL
+(M) Mover brazo derecho del robot AZUL
+
+(P) Activar/desactivar animación
+
+Las teclas para la práctica 4 son:
+
+La fuente posicional está expresada en coordenadas polares con dos ángulos α y β.
+
+(A) aumentar el valor de β
+(Z) disminuir el valor de β
+(X) aumentar el valor de α
+(C) disminuir el valor de α
+
+
+--- (tecla) info tecla ---
