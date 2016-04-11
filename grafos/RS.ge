@@ -1,0 +1,35 @@
+n d
+	n d
+		n s abc/r.ge
+		t t 3 0 0
+		t s 0.8 0.8 0.8
+		n s abc/o.ge
+		t t 4 0 0
+		n s abc/c.ge
+		t t 3.5 0 0
+		n s abc/k.ge
+		t t 3.5 0 0
+		n s abc/apostrofe.ge
+		t t 2 0 0
+		n s abc/e.ge
+		t t 3.5 0 0
+		n s abc/m.ge
+	n e
+	n d
+		t t 0 0 6
+		n s abc/s.ge
+		t t 3 0 0
+		t s 0.8 0.8 0.8
+		n s abc/o.ge
+		t t 4 0 0
+		n s abc/c.ge
+		t t 3.5 0 0
+		n s abc/k.ge
+		t t 3.5 0 0
+		n s abc/apostrofe.ge
+		t t 2 0 0
+		n s abc/e.ge
+		t t 3.5 0 0
+		n s abc/m.ge
+	n e
+n e

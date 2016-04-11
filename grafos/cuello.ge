@@ -1,0 +1,19 @@
+n d
+	t r 1 0 0 90
+	n d
+		t t 0 0 -1
+		o 9
+	n e
+	n d
+		t t 0 0 1
+		o 9
+	n e
+	n d
+		t t 0 0 -3
+		o 9
+	n e
+	n d
+		t t 0 0 3
+		o 9
+	n e
+n e

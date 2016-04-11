@@ -1,0 +1,79 @@
+n d
+	t r 0 1 0 -90
+	n d
+		t t -0.7 8 1.5
+		t s 1.4 1 1
+		n s pierna.ge
+	n e
+	n d
+		t t -0.7 8 -1.5
+		t s 1.4 1 1
+		n s pierna.ge
+	n e
+	n d
+		t t 0 7.8 0
+		t s 2.4 2.4 2.4
+		t t -0.275 0 -0.5
+		t r 1 0 0 90
+		o 4
+	n e
+	n d
+		t t 0 8.1 0
+		t s 2.5 3.2 0.5
+		t t -0.275 0 -0.5
+		t r 1 0 0 90
+		o 4
+	n e
+	n d
+		t t -0.6 9.3 0
+		t r 0 0 1 -5
+		t s 6 5 7
+		o 5
+	n e
+	n d
+		t t -0.3 13 0
+		t r 0 0 1 -5
+		t s 4.5 7 4.5
+		o 0
+	n e
+	n d
+		t t 0 15 0
+		t r 0 0 1 -5
+		t s 5 3 6
+		o 0
+	n e
+	n d
+		t t 0 15 3.8
+		t s 1.5 1.5 1
+		g r 0 0 1 0
+		n s brazo.ge
+	n e
+	n d
+		t t 0 15 -3.8
+		t s 1.5 1.5 1
+		g r 0 0 1 0
+		n s brazo.ge
+	n e
+	n d
+		t t 0.3 17 0
+		t r 0 0 1 -5
+		t s 2.5 2 2.5
+		t s 1 0.5 1.5
+		o 0
+		t t -0.5 -0.5 0
+		o 4
+	n e
+	n d
+		t t 0.5 19 0
+		t r 0 0 1 -5
+		t s 0.5 0.5 0.5
+		n s cuello.ge
+	n e
+	n d
+		g t 0 0 0
+		t t 0.2 19.2 0
+		t r 0 0 1 -5
+		t s 1.6 1.6 1.6
+		o 10
+	n e
+n e
