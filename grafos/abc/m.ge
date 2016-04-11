@@ -1,0 +1,23 @@
+n d
+	n d
+		t s 1 1 5
+		o 0
+	n e
+	n d
+		t t 1 0 -1.25
+		t r 0 1 0 45
+		t s 1 1 2.5
+		o 0
+	n e
+	n d
+		t t 2.05 0 -1.25
+		t r 0 1 0 -45
+		t s 1 1 2.5
+		o 0
+	n e
+	n d
+		t t 3.05 0 0
+		t s 1 1 5
+		o 0
+	n e
+n e
